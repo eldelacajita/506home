@@ -2,6 +2,14 @@ body {
         font-family: 'Asap', serif;
         font-weight: 400;
       }
+a {
+        color: #0000FF;
+	text-decoration:none;
+      }
+a:hover {
+        color: #0000FF;
+	text-decoration:none;
+      }
 #title {
 	display:block;
         font-size: 48px;
@@ -9,17 +17,8 @@ body {
 	text-align:center;
 	margin: 80px auto 0px;
       }
-a {
-        color: #0000FF;
-	text-decoration:none;
-      }
-
 #title a {
         color: #000000;
-	text-decoration:none;
-      }
-a:hover {
-        color: #0000FF;
 	text-decoration:none;
       }
 #title a:hover {
@@ -34,14 +33,18 @@ a:hover {
 	color: gray;
 	margin: 0px auto 80px;
       }
+#text {
+	font-style: italic;
+	max-width: 650px;
+	margin: 0px auto 80px;
+	padding: 0px 20px;
+      }
 h1 {
         font-size: 18px;
         font-weight: 700;
-	width: 650px;
-	margin: 40px auto 30px;
+	margin: 40px 0px 30px;
       }
 p {
         font-size: 16px;
-	width: 650px;
-	margin: 0px auto 20px;
+	margin: 0px 0px 20px;
       }

@@ -3,11 +3,12 @@ body {
         font-weight: 400;
       }
 a {
-        color: #0000FF;
+        color: #000000;
 	text-decoration:none;
+	border-bottom:2px solid #2196f3;
       }
 a:hover {
-        color: #0000FF;
+        color: #2196f3;
 	text-decoration:none;
       }
 #title {
@@ -20,9 +21,10 @@ a:hover {
 #title a {
         color: #000000;
 	text-decoration:none;
+	border-bottom:none;
       }
 #title a:hover {
-        color: #0000FF;
+        color: #2196f3;
 	text-decoration:none;
       }
 #subtitle {
